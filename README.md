@@ -103,8 +103,3 @@ Ce TP montre que :
 
 ```
 
-Tu peux maintenant **copier-coller tel quel** dans ton dépôt GitHub.  
-
-Si tu veux, je peux aussi te fournir **les commandes Git exactes** pour créer le dépôt et publier ce TP avec tes fichiers. Veux‑tu que je fasse ça ?
-```
-
