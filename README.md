@@ -101,5 +101,5 @@ Ce TP montre que :
 * Telnet permet de visualiser directement les échanges client ↔ serveur.
 * On peut tester les méthodes GET et POST, mais l’envoi de fichiers binaires n’est pas pratique via Telnet.
 
-```
+
 
