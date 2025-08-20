@@ -8,7 +8,7 @@ Nous testons différentes requêtes (GET et POST) pour interagir avec le serveur
 
 ---
 
-## ⚙️ Environnement utilisé
+##  Environnement utilisé
 - Système : Ubuntu 22.04
 - Serveur Web : Apache2
 - Outil réseau : Telnet
@@ -19,7 +19,7 @@ Nous testons différentes requêtes (GET et POST) pour interagir avec le serveur
 
 ---
 
-## 📝 Étapes réalisées
+##  Étapes réalisées
 
 ### 1. Vérifier que le serveur Apache fonctionne
 ```bash
@@ -35,17 +35,18 @@ telnet localhost 80
 
 ---
 
-## 📌 Requêtes HTTP testées
+##  Requêtes HTTP testées
 
-### 🔹 GET d’une page HTML (`donald.html`)
+###  GET d’une page HTML (`donald.html`)
 
 ```
 GET /donald.html HTTP/1.1
 Host: localhost
 
 ```
+ La réponse contient le contenu de donald.html
 
-### 🔹 GET d’une image PNG (`logo.png`)
+###  GET d’une image PNG (`logo.png`)
 
 ```
 GET /logo.png HTTP/1.1
@@ -53,9 +54,9 @@ Host: localhost
 
 ```
 
-👉 La réponse contient le flux binaire de l’image, affiché sous forme de caractères illisibles dans Telnet (normal).
+La réponse contient le flux binaire de l’image, affiché sous forme de caractères illisibles dans Telnet (normal).
 
-### 🔹 POST de données simples (`test.php`)
+###  POST de données simples (`test.php`)
 
 Fichier PHP minimal dans `/var/www/html/test.php` :
 
@@ -85,7 +86,7 @@ Vous avez envoyé : Array ( [nom] => Donald )
 
 ---
 
-## ⚠️ Limites rencontrées
+##  Limites rencontrées
 
 * Telnet est adapté aux **requêtes textuelles** (GET/POST avec données simples).
 * Il n’est **pas adapté à l’envoi de fichiers binaires** (comme une image PNG) via POST.
@@ -93,7 +94,7 @@ Vous avez envoyé : Array ( [nom] => Donald )
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 Ce TP montre que :
 
