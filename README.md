@@ -24,3 +24,5 @@ Nous testons différentes requêtes (GET et POST) pour interagir avec le serveur
 sudo systemctl start apache2
 curl http://localhost
 
+
+### 2. Ouvrir une session Telnet sur le port HTTP (80)
